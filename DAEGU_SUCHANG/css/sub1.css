@@ -1,0 +1,22 @@
+@font-face {
+  font-family: 'pretendard';
+  src: url(../font/variable/PretendardVariable.ttf);
+}
+html{
+  font-size: 16px;
+}
+body{
+  font-family: 'pretendard';
+}
+::selection{
+  background-color: #FF2E00;
+  color: #fff;
+}
+.t_hidden{
+  display: block;
+  width: 1px;
+  height: 1px;
+  font-size: 0;
+  overflow: hidden;
+  position: absolute;
+}
